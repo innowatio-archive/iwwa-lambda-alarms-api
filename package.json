@@ -25,7 +25,7 @@
     "gulp-spawn-mocha": "^2.2.1",
     "gulp-zip": "^3.0.2",
     "istanbul": "^0.3.17",
-    "lambda-deploy": "^1.1.0",
+    "lambda-deploy": "^2.0.0",
     "mocha": "^2.2.5",
     "pro-gulp": "^0.3.0",
     "sinon": "^1.15.4",
