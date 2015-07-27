@@ -1,4 +1,7 @@
 import Collection from "iwwa-kinesis-collection";
+import {load} from "dotenv";
+
+load();
 
 var Alarms = new Collection("alarms", process.env.KINESIS_STREAM_NAME);
 

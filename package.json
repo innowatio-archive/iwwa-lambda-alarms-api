@@ -8,6 +8,7 @@
     "url": "https://github.com/innowation/iwwa-lambda-alarms-producer.git"
   },
   "dependencies": {
+    "dotenv": "^1.2.0",
     "iwwa-kinesis-collection": "^2.1.0"
   },
   "devDependencies": {
