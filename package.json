@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "dotenv": "^1.2.0",
-    "iwwa-kinesis-collection": "^2.1.0"
+    "lkd-collection": "^1.0.0"
   },
   "devDependencies": {
     "babel": "^5.6.23",

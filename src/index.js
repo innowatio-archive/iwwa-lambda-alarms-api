@@ -1,12 +1,11 @@
-import Collection from "iwwa-kinesis-collection";
+import Collection from "lkd-collection";
 import dotenv from "dotenv";
 
 dotenv.load();
 
-var Alarms = new Collection("alarms", process.env.KINESIS_STREAM_NAME);
+var Alarms = new Collection({
+    name: "alarms",
+    kinesisStreamName: process.env.KINESIS_STREAM_NAME
+});
 
-export function handler (event, context) {
-    Alarms.processEvent(event)
-        .then(context.succeed)
-        .catch(context.fail);
-}
+export var handler = Alarms.producer;
