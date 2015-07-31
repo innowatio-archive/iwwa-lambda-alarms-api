@@ -1,4 +1,8 @@
-# iwwa-lambda-alarms-producer
+[![Build Status](https://travis-ci.org/innowatio/iwwa-lambda-alarms-api.svg?branch=master)](https://travis-ci.org/innowatio/iwwa-lambda-alarms-api)
+[![Dependency Status](https://david-dm.org/innowatio/iwwa-lambda-alarms-api.svg)](https://david-dm.org/innowatio/iwwa-lambda-alarms-api)
+[![devDependency Status](https://david-dm.org/innowatio/iwwa-lambda-alarms-api/dev-status.svg)](https://david-dm.org/innowatio/iwwa-lambda-alarms-api#info=devDependencies)
+
+# iwwa-lambda-alarms-api
 
 Takes HTTP requests coming from AWS API Gateway and emits events into AWS
 Kinesis.
