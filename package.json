@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "dotenv": "^1.2.0",
-    "lk-collection": "^2.2.0"
+    "lk-collection": "^2.3.2"
   },
   "devDependencies": {
     "babel": "^5.6.23",
